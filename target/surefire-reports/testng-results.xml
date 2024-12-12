@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T20:54:48 IST" name="Suite" finished-at="2024-12-02T20:54:58 IST" duration-ms="10166">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.loginErrorValidations()[pri:0, instance:HCLTech.tests.ErrorValidations@59474f18]" name="loginErrorValidations" class="HCLTech.tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-12-02T20:54:48 IST" name="SubmitOrderTest" finished-at="2024-12-02T20:54:48 IST" duration-ms="14">
+    </test> <!-- SubmitOrderTest -->
+    <test started-at="2024-12-02T20:54:48 IST" name="ErrorValidations Test" finished-at="2024-12-02T20:54:58 IST" duration-ms="10166">
+      <class name="HCLTech.tests.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:HCLTech.tests.ErrorValidations@59474f18]" started-at="2024-12-02T20:54:48 IST" name="launchApplication" finished-at="2024-12-02T20:54:56 IST" duration-ms="8533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidations()[pri:0, instance:HCLTech.tests.ErrorValidations@59474f18]" started-at="2024-12-02T20:54:56 IST" name="loginErrorValidations" finished-at="2024-12-02T20:54:57 IST" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HCLTech.tests.ErrorValidations@59474f18]" started-at="2024-12-02T20:54:57 IST" name="tearDown" finished-at="2024-12-02T20:54:58 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HCLTech.tests.ErrorValidations -->
+    </test> <!-- ErrorValidations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
